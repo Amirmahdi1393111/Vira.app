@@ -1,0 +1,65 @@
+   <?xml version="1.0" encoding="utf-8"?>
+   <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="#F5F5F5">
+
+       <!-- هدر ثابت بالا -->
+       <TextView
+           android:id="@+id/header_title"
+           android:layout_width="match_parent"
+           android:layout_height="56dp"
+           android:background="#FFFFFF"
+           android:gravity="center"
+           android:text="ویــــــرا | Vira"
+           android:textColor="#007BFF"
+           android:textSize="20sp"
+           android:textStyle="bold" />
+
+       <!-- تب‌های پایین صفحه -->
+       <LinearLayout
+           android:id="@+id/bottom_navigation"
+           android:layout_width="match_parent"
+           android:layout_height="56dp"
+           android:layout_alignParentBottom="true"
+           android:background="#FFFFFF"
+           android:orientation="horizontal">
+
+           <Button
+               android:id="@+id/btn_apps"
+               style="?android:attr/borderlessButtonStyle"
+               android:layout_width="0dp"
+               android:layout_height="match_parent"
+               android:layout_weight="1"
+               android:text="برنامه"
+               android:textColor="#666666" />
+
+           <Button
+               android:id="@+id/btn_games"
+               style="?android:attr/borderlessButtonStyle"
+               android:layout_width="0dp"
+               android:layout_height="match_parent"
+               android:layout_weight="1"
+               android:text="بازی"
+               android:textColor="#666666" />
+
+           <Button
+               android:id="@+id/btn_updates"
+               style="?android:attr/borderlessButtonStyle"
+               android:layout_width="0dp"
+               android:layout_height="match_parent"
+               android:layout_weight="1"
+               android:text="به‌روزرسانی‌ها"
+               android:textColor="#666666" />
+
+           <Button
+               android:id="@+id/btn_account"
+               style="?android:attr/borderlessButtonStyle"
+               android:layout_width="0dp"
+               android:layout_height="match_parent"
+               android:layout_weight="1"
+               android:text="حساب کاربری"
+               android:textColor="#666666" />
+       </LinearLayout>
+
+   </RelativeLayout>
